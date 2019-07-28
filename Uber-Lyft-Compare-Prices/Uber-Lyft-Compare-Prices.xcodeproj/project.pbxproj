@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77BB557F22EE43420075A05D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB557E22EE43420075A05D /* AppDelegate.swift */; };
+		77BB558122EE43420075A05D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB558022EE43420075A05D /* ViewController.swift */; };
+		77BB558422EE43420075A05D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BB558222EE43420075A05D /* Main.storyboard */; };
+		77BB558622EE43440075A05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BB558522EE43440075A05D /* Assets.xcassets */; };
+		77BB558922EE43440075A05D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BB558722EE43440075A05D /* LaunchScreen.storyboard */; };
+		77BB559422EE43440075A05D /* Uber_Lyft_Compare_PricesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB559322EE43440075A05D /* Uber_Lyft_Compare_PricesTests.swift */; };
+		77BB559F22EE43440075A05D /* Uber_Lyft_Compare_PricesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB559E22EE43440075A05D /* Uber_Lyft_Compare_PricesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77BB559022EE43440075A05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77BB557322EE43420075A05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77BB557A22EE43420075A05D;
+			remoteInfo = "Uber-Lyft-Compare-Prices";
+		};
+		77BB559B22EE43440075A05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77BB557322EE43420075A05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77BB557A22EE43420075A05D;
+			remoteInfo = "Uber-Lyft-Compare-Prices";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77BB557B22EE43420075A05D /* Uber-Lyft-Compare-Prices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uber-Lyft-Compare-Prices.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BB557E22EE43420075A05D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77BB558022EE43420075A05D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77BB558322EE43420075A05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77BB558522EE43440075A05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77BB558822EE43440075A05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77BB558A22EE43440075A05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BB558F22EE43440075A05D /* Uber-Lyft-Compare-PricesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber-Lyft-Compare-PricesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BB559322EE43440075A05D /* Uber_Lyft_Compare_PricesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_Lyft_Compare_PricesTests.swift; sourceTree = "<group>"; };
+		77BB559522EE43440075A05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BB559A22EE43440075A05D /* Uber-Lyft-Compare-PricesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber-Lyft-Compare-PricesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BB559E22EE43440075A05D /* Uber_Lyft_Compare_PricesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_Lyft_Compare_PricesUITests.swift; sourceTree = "<group>"; };
+		77BB55A022EE43440075A05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77BB557822EE43420075A05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB558C22EE43440075A05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB559722EE43440075A05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77BB557222EE43420075A05D = {
+			isa = PBXGroup;
+			children = (
+				77BB557D22EE43420075A05D /* Uber-Lyft-Compare-Prices */,
+				77BB559222EE43440075A05D /* Uber-Lyft-Compare-PricesTests */,
+				77BB559D22EE43440075A05D /* Uber-Lyft-Compare-PricesUITests */,
+				77BB557C22EE43420075A05D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77BB557C22EE43420075A05D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77BB557B22EE43420075A05D /* Uber-Lyft-Compare-Prices.app */,
+				77BB558F22EE43440075A05D /* Uber-Lyft-Compare-PricesTests.xctest */,
+				77BB559A22EE43440075A05D /* Uber-Lyft-Compare-PricesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77BB557D22EE43420075A05D /* Uber-Lyft-Compare-Prices */ = {
+			isa = PBXGroup;
+			children = (
+				77BB557E22EE43420075A05D /* AppDelegate.swift */,
+				77BB558022EE43420075A05D /* ViewController.swift */,
+				77BB558222EE43420075A05D /* Main.storyboard */,
+				77BB558522EE43440075A05D /* Assets.xcassets */,
+				77BB558722EE43440075A05D /* LaunchScreen.storyboard */,
+				77BB558A22EE43440075A05D /* Info.plist */,
+			);
+			path = "Uber-Lyft-Compare-Prices";
+			sourceTree = "<group>";
+		};
+		77BB559222EE43440075A05D /* Uber-Lyft-Compare-PricesTests */ = {
+			isa = PBXGroup;
+			children = (
+				77BB559322EE43440075A05D /* Uber_Lyft_Compare_PricesTests.swift */,
+				77BB559522EE43440075A05D /* Info.plist */,
+			);
+			path = "Uber-Lyft-Compare-PricesTests";
+			sourceTree = "<group>";
+		};
+		77BB559D22EE43440075A05D /* Uber-Lyft-Compare-PricesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77BB559E22EE43440075A05D /* Uber_Lyft_Compare_PricesUITests.swift */,
+				77BB55A022EE43440075A05D /* Info.plist */,
+			);
+			path = "Uber-Lyft-Compare-PricesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77BB557A22EE43420075A05D /* Uber-Lyft-Compare-Prices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BB55A322EE43440075A05D /* Build configuration list for PBXNativeTarget "Uber-Lyft-Compare-Prices" */;
+			buildPhases = (
+				77BB557722EE43420075A05D /* Sources */,
+				77BB557822EE43420075A05D /* Frameworks */,
+				77BB557922EE43420075A05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uber-Lyft-Compare-Prices";
+			productName = "Uber-Lyft-Compare-Prices";
+			productReference = 77BB557B22EE43420075A05D /* Uber-Lyft-Compare-Prices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77BB558E22EE43440075A05D /* Uber-Lyft-Compare-PricesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BB55A622EE43440075A05D /* Build configuration list for PBXNativeTarget "Uber-Lyft-Compare-PricesTests" */;
+			buildPhases = (
+				77BB558B22EE43440075A05D /* Sources */,
+				77BB558C22EE43440075A05D /* Frameworks */,
+				77BB558D22EE43440075A05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77BB559122EE43440075A05D /* PBXTargetDependency */,
+			);
+			name = "Uber-Lyft-Compare-PricesTests";
+			productName = "Uber-Lyft-Compare-PricesTests";
+			productReference = 77BB558F22EE43440075A05D /* Uber-Lyft-Compare-PricesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77BB559922EE43440075A05D /* Uber-Lyft-Compare-PricesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BB55A922EE43440075A05D /* Build configuration list for PBXNativeTarget "Uber-Lyft-Compare-PricesUITests" */;
+			buildPhases = (
+				77BB559622EE43440075A05D /* Sources */,
+				77BB559722EE43440075A05D /* Frameworks */,
+				77BB559822EE43440075A05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77BB559C22EE43440075A05D /* PBXTargetDependency */,
+			);
+			name = "Uber-Lyft-Compare-PricesUITests";
+			productName = "Uber-Lyft-Compare-PricesUITests";
+			productReference = 77BB559A22EE43440075A05D /* Uber-Lyft-Compare-PricesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77BB557322EE43420075A05D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kaleab Gebremichael";
+				TargetAttributes = {
+					77BB557A22EE43420075A05D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					77BB558E22EE43440075A05D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 77BB557A22EE43420075A05D;
+					};
+					77BB559922EE43440075A05D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 77BB557A22EE43420075A05D;
+					};
+				};
+			};
+			buildConfigurationList = 77BB557622EE43420075A05D /* Build configuration list for PBXProject "Uber-Lyft-Compare-Prices" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77BB557222EE43420075A05D;
+			productRefGroup = 77BB557C22EE43420075A05D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77BB557A22EE43420075A05D /* Uber-Lyft-Compare-Prices */,
+				77BB558E22EE43440075A05D /* Uber-Lyft-Compare-PricesTests */,
+				77BB559922EE43440075A05D /* Uber-Lyft-Compare-PricesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77BB557922EE43420075A05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BB558922EE43440075A05D /* LaunchScreen.storyboard in Resources */,
+				77BB558622EE43440075A05D /* Assets.xcassets in Resources */,
+				77BB558422EE43420075A05D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB558D22EE43440075A05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB559822EE43440075A05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77BB557722EE43420075A05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BB558122EE43420075A05D /* ViewController.swift in Sources */,
+				77BB557F22EE43420075A05D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB558B22EE43440075A05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BB559422EE43440075A05D /* Uber_Lyft_Compare_PricesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB559622EE43440075A05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BB559F22EE43440075A05D /* Uber_Lyft_Compare_PricesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77BB559122EE43440075A05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77BB557A22EE43420075A05D /* Uber-Lyft-Compare-Prices */;
+			targetProxy = 77BB559022EE43440075A05D /* PBXContainerItemProxy */;
+		};
+		77BB559C22EE43440075A05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77BB557A22EE43420075A05D /* Uber-Lyft-Compare-Prices */;
+			targetProxy = 77BB559B22EE43440075A05D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77BB558222EE43420075A05D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77BB558322EE43420075A05D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77BB558722EE43440075A05D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77BB558822EE43440075A05D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77BB55A122EE43440075A05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77BB55A222EE43440075A05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77BB55A422EE43440075A05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJKBBZGGB6;
+				INFOPLIST_FILE = "Uber-Lyft-Compare-Prices/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KaleabG.Uber-Lyft-Compare-Prices";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77BB55A522EE43440075A05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJKBBZGGB6;
+				INFOPLIST_FILE = "Uber-Lyft-Compare-Prices/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KaleabG.Uber-Lyft-Compare-Prices";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77BB55A722EE43440075A05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJKBBZGGB6;
+				INFOPLIST_FILE = "Uber-Lyft-Compare-PricesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KaleabG.Uber-Lyft-Compare-PricesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uber-Lyft-Compare-Prices.app/Uber-Lyft-Compare-Prices";
+			};
+			name = Debug;
+		};
+		77BB55A822EE43440075A05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJKBBZGGB6;
+				INFOPLIST_FILE = "Uber-Lyft-Compare-PricesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KaleabG.Uber-Lyft-Compare-PricesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uber-Lyft-Compare-Prices.app/Uber-Lyft-Compare-Prices";
+			};
+			name = Release;
+		};
+		77BB55AA22EE43440075A05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJKBBZGGB6;
+				INFOPLIST_FILE = "Uber-Lyft-Compare-PricesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KaleabG.Uber-Lyft-Compare-PricesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Uber-Lyft-Compare-Prices";
+			};
+			name = Debug;
+		};
+		77BB55AB22EE43440075A05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJKBBZGGB6;
+				INFOPLIST_FILE = "Uber-Lyft-Compare-PricesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KaleabG.Uber-Lyft-Compare-PricesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Uber-Lyft-Compare-Prices";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77BB557622EE43420075A05D /* Build configuration list for PBXProject "Uber-Lyft-Compare-Prices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BB55A122EE43440075A05D /* Debug */,
+				77BB55A222EE43440075A05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BB55A322EE43440075A05D /* Build configuration list for PBXNativeTarget "Uber-Lyft-Compare-Prices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BB55A422EE43440075A05D /* Debug */,
+				77BB55A522EE43440075A05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BB55A622EE43440075A05D /* Build configuration list for PBXNativeTarget "Uber-Lyft-Compare-PricesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BB55A722EE43440075A05D /* Debug */,
+				77BB55A822EE43440075A05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BB55A922EE43440075A05D /* Build configuration list for PBXNativeTarget "Uber-Lyft-Compare-PricesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BB55AA22EE43440075A05D /* Debug */,
+				77BB55AB22EE43440075A05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77BB557322EE43420075A05D /* Project object */;
+}
