@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2681F7678BD963F2A3FCF400 /* Pods_Uber_Lyft_Compare_PricesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F64F46CD40E911DB0E802F3 /* Pods_Uber_Lyft_Compare_PricesTests.framework */; };
+		772F24AF22EE58CE0016C9D1 /* LyftSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772F24A022EE58560016C9D1 /* LyftSDK.framework */; };
+		772F24B022EE58D30016C9D1 /* UberCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772F249722EE583E0016C9D1 /* UberCore.framework */; };
+		772F24B122EE58D90016C9D1 /* UberRides.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772F249322EE583E0016C9D1 /* UberRides.framework */; };
 		77BB557F22EE43420075A05D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB557E22EE43420075A05D /* AppDelegate.swift */; };
 		77BB558122EE43420075A05D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB558022EE43420075A05D /* ViewController.swift */; };
 		77BB558422EE43420075A05D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BB558222EE43420075A05D /* Main.storyboard */; };
@@ -14,9 +18,59 @@
 		77BB558922EE43440075A05D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BB558722EE43440075A05D /* LaunchScreen.storyboard */; };
 		77BB559422EE43440075A05D /* Uber_Lyft_Compare_PricesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB559322EE43440075A05D /* Uber_Lyft_Compare_PricesTests.swift */; };
 		77BB559F22EE43440075A05D /* Uber_Lyft_Compare_PricesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB559E22EE43440075A05D /* Uber_Lyft_Compare_PricesUITests.swift */; };
+		DEE7374246175B8194BD3A88 /* Pods_Uber_Lyft_Compare_PricesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C243F816A1AE00A6F8EC1754 /* Pods_Uber_Lyft_Compare_PricesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		772F249022EE583E0016C9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772F248822EE583D0016C9D1 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCDD153B1D99A7F20053BC8F;
+			remoteInfo = TestAppShim;
+		};
+		772F249222EE583E0016C9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772F248822EE583D0016C9D1 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC0404751BFACD1D00AC1501;
+			remoteInfo = UberRides;
+		};
+		772F249422EE583E0016C9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772F248822EE583D0016C9D1 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC04047F1BFACD1D00AC1501;
+			remoteInfo = UberRidesTests;
+		};
+		772F249622EE583E0016C9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772F248822EE583D0016C9D1 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DFFCA8AC1F96A4800032E6BA;
+			remoteInfo = UberCore;
+		};
+		772F249822EE583E0016C9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772F248822EE583D0016C9D1 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DFFCA8B41F96A4800032E6BA;
+			remoteInfo = UberCoreTests;
+		};
+		772F249F22EE58560016C9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772F249A22EE58560016C9D1 /* LyftSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB7CA7171DD1252800303FEB;
+			remoteInfo = LyftSDK;
+		};
+		772F24A122EE58560016C9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772F249A22EE58560016C9D1 /* LyftSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB7CA7201DD1252800303FEB;
+			remoteInfo = LyftSDKTests;
+		};
 		77BB559022EE43440075A05D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 77BB557322EE43420075A05D /* Project object */;
@@ -34,6 +88,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CCBE3A34B8570CE06AC3730 /* Pods-Uber-Lyft-Compare-Prices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber-Lyft-Compare-Prices.debug.xcconfig"; path = "Target Support Files/Pods-Uber-Lyft-Compare-Prices/Pods-Uber-Lyft-Compare-Prices.debug.xcconfig"; sourceTree = "<group>"; };
+		2265C392F1513ECB6503942A /* Pods-Uber-Lyft-Compare-Prices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber-Lyft-Compare-Prices.release.xcconfig"; path = "Target Support Files/Pods-Uber-Lyft-Compare-Prices/Pods-Uber-Lyft-Compare-Prices.release.xcconfig"; sourceTree = "<group>"; };
+		67CA7C861B9610B300FCC487 /* Pods-Uber-Lyft-Compare-PricesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber-Lyft-Compare-PricesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Uber-Lyft-Compare-PricesUITests/Pods-Uber-Lyft-Compare-PricesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F64F46CD40E911DB0E802F3 /* Pods_Uber_Lyft_Compare_PricesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uber_Lyft_Compare_PricesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		772F248822EE583D0016C9D1 /* UberRides.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UberRides.xcodeproj; path = "Carthage/Checkouts/rides-ios-sdk/source/UberRides.xcodeproj"; sourceTree = "<group>"; };
+		772F249A22EE58560016C9D1 /* LyftSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LyftSDK.xcodeproj; path = "Carthage/Checkouts/Lyft-iOS-sdk/LyftSDK.xcodeproj"; sourceTree = "<group>"; };
+		7742062822EE520F00A742F9 /* Lyft-iOS-sdk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Lyft-iOS-sdk"; path = "Carthage/Checkouts/Lyft-iOS-sdk"; sourceTree = "<group>"; };
+		7742062A22EE522900A742F9 /* rides-ios-sdk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "rides-ios-sdk"; path = "Carthage/Checkouts/rides-ios-sdk"; sourceTree = "<group>"; };
+		7742062C22EE52DD00A742F9 /* Uber-Lyft-Compare-Prices */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Uber-Lyft-Compare-Prices"; sourceTree = "<group>"; };
 		77BB557B22EE43420075A05D /* Uber-Lyft-Compare-Prices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uber-Lyft-Compare-Prices.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77BB557E22EE43420075A05D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77BB558022EE43420075A05D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +110,11 @@
 		77BB559A22EE43440075A05D /* Uber-Lyft-Compare-PricesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber-Lyft-Compare-PricesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77BB559E22EE43440075A05D /* Uber_Lyft_Compare_PricesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_Lyft_Compare_PricesUITests.swift; sourceTree = "<group>"; };
 		77BB55A022EE43440075A05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C6B2070E09B9E7B39DCF6E /* Pods_Uber_Lyft_Compare_Prices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uber_Lyft_Compare_Prices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C243F816A1AE00A6F8EC1754 /* Pods_Uber_Lyft_Compare_PricesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uber_Lyft_Compare_PricesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54864C55C94AC15C9BD2B53 /* Pods-Uber-Lyft-Compare-PricesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber-Lyft-Compare-PricesUITests.release.xcconfig"; path = "Target Support Files/Pods-Uber-Lyft-Compare-PricesUITests/Pods-Uber-Lyft-Compare-PricesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E17FC8AD4F72D94DA4C47B74 /* Pods-Uber-Lyft-Compare-PricesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber-Lyft-Compare-PricesTests.debug.xcconfig"; path = "Target Support Files/Pods-Uber-Lyft-Compare-PricesTests/Pods-Uber-Lyft-Compare-PricesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD2715895730CAC95ACF2CB7 /* Pods-Uber-Lyft-Compare-PricesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber-Lyft-Compare-PricesTests.release.xcconfig"; path = "Target Support Files/Pods-Uber-Lyft-Compare-PricesTests/Pods-Uber-Lyft-Compare-PricesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +122,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772F24B122EE58D90016C9D1 /* UberRides.framework in Frameworks */,
+				772F24B022EE58D30016C9D1 /* UberCore.framework in Frameworks */,
+				772F24AF22EE58CE0016C9D1 /* LyftSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2681F7678BD963F2A3FCF400 /* Pods_Uber_Lyft_Compare_PricesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +140,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE7374246175B8194BD3A88 /* Pods_Uber_Lyft_Compare_PricesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65A1BCDD1A1051ECB5884A7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7742062C22EE52DD00A742F9 /* Uber-Lyft-Compare-Prices */,
+				7742062A22EE522900A742F9 /* rides-ios-sdk */,
+				7742062822EE520F00A742F9 /* Lyft-iOS-sdk */,
+				A4C6B2070E09B9E7B39DCF6E /* Pods_Uber_Lyft_Compare_Prices.framework */,
+				6F64F46CD40E911DB0E802F3 /* Pods_Uber_Lyft_Compare_PricesTests.framework */,
+				C243F816A1AE00A6F8EC1754 /* Pods_Uber_Lyft_Compare_PricesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		772F248922EE583D0016C9D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				772F249122EE583E0016C9D1 /* TestAppShim.app */,
+				772F249322EE583E0016C9D1 /* UberRides.framework */,
+				772F249522EE583E0016C9D1 /* UberRidesTests.xctest */,
+				772F249722EE583E0016C9D1 /* UberCore.framework */,
+				772F249922EE583E0016C9D1 /* UberCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		772F249B22EE58560016C9D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				772F24A022EE58560016C9D1 /* LyftSDK.framework */,
+				772F24A222EE58560016C9D1 /* LyftSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		77BB557222EE43420075A05D = {
 			isa = PBXGroup;
 			children = (
+				772F249A22EE58560016C9D1 /* LyftSDK.xcodeproj */,
+				772F248822EE583D0016C9D1 /* UberRides.xcodeproj */,
 				77BB557D22EE43420075A05D /* Uber-Lyft-Compare-Prices */,
 				77BB559222EE43440075A05D /* Uber-Lyft-Compare-PricesTests */,
 				77BB559D22EE43440075A05D /* Uber-Lyft-Compare-PricesUITests */,
 				77BB557C22EE43420075A05D /* Products */,
+				8B700F484D2B124465AA2CF9 /* Pods */,
+				65A1BCDD1A1051ECB5884A7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +236,19 @@
 			path = "Uber-Lyft-Compare-PricesUITests";
 			sourceTree = "<group>";
 		};
+		8B700F484D2B124465AA2CF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCBE3A34B8570CE06AC3730 /* Pods-Uber-Lyft-Compare-Prices.debug.xcconfig */,
+				2265C392F1513ECB6503942A /* Pods-Uber-Lyft-Compare-Prices.release.xcconfig */,
+				E17FC8AD4F72D94DA4C47B74 /* Pods-Uber-Lyft-Compare-PricesTests.debug.xcconfig */,
+				FD2715895730CAC95ACF2CB7 /* Pods-Uber-Lyft-Compare-PricesTests.release.xcconfig */,
+				67CA7C861B9610B300FCC487 /* Pods-Uber-Lyft-Compare-PricesUITests.debug.xcconfig */,
+				C54864C55C94AC15C9BD2B53 /* Pods-Uber-Lyft-Compare-PricesUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77BB55A322EE43440075A05D /* Build configuration list for PBXNativeTarget "Uber-Lyft-Compare-Prices" */;
 			buildPhases = (
+				5777677C7507756993E10083 /* [CP] Check Pods Manifest.lock */,
 				77BB557722EE43420075A05D /* Sources */,
 				77BB557822EE43420075A05D /* Frameworks */,
 				77BB557922EE43420075A05D /* Resources */,
+				E09F4A877145D739EADE892D /* [CP] Embed Pods Frameworks */,
+				772F247A22EE57AC0016C9D1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77BB55A622EE43440075A05D /* Build configuration list for PBXNativeTarget "Uber-Lyft-Compare-PricesTests" */;
 			buildPhases = (
+				987B66D05187EEFB9237DCDC /* [CP] Check Pods Manifest.lock */,
 				77BB558B22EE43440075A05D /* Sources */,
 				77BB558C22EE43440075A05D /* Frameworks */,
 				77BB558D22EE43440075A05D /* Resources */,
@@ -167,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77BB55A922EE43440075A05D /* Build configuration list for PBXNativeTarget "Uber-Lyft-Compare-PricesUITests" */;
 			buildPhases = (
+				5921EC727405AAD6B885CC13 /* [CP] Check Pods Manifest.lock */,
 				77BB559622EE43440075A05D /* Sources */,
 				77BB559722EE43440075A05D /* Frameworks */,
 				77BB559822EE43440075A05D /* Resources */,
@@ -215,6 +344,16 @@
 			mainGroup = 77BB557222EE43420075A05D;
 			productRefGroup = 77BB557C22EE43420075A05D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 772F249B22EE58560016C9D1 /* Products */;
+					ProjectRef = 772F249A22EE58560016C9D1 /* LyftSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 772F248922EE583D0016C9D1 /* Products */;
+					ProjectRef = 772F248822EE583D0016C9D1 /* UberRides.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				77BB557A22EE43420075A05D /* Uber-Lyft-Compare-Prices */,
@@ -223,6 +362,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		772F249122EE583E0016C9D1 /* TestAppShim.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestAppShim.app;
+			remoteRef = 772F249022EE583E0016C9D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		772F249322EE583E0016C9D1 /* UberRides.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UberRides.framework;
+			remoteRef = 772F249222EE583E0016C9D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		772F249522EE583E0016C9D1 /* UberRidesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UberRidesTests.xctest;
+			remoteRef = 772F249422EE583E0016C9D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		772F249722EE583E0016C9D1 /* UberCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UberCore.framework;
+			remoteRef = 772F249622EE583E0016C9D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		772F249922EE583E0016C9D1 /* UberCoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UberCoreTests.xctest;
+			remoteRef = 772F249822EE583E0016C9D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		772F24A022EE58560016C9D1 /* LyftSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LyftSDK.framework;
+			remoteRef = 772F249F22EE58560016C9D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		772F24A222EE58560016C9D1 /* LyftSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LyftSDKTests.xctest;
+			remoteRef = 772F24A122EE58560016C9D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		77BB557922EE43420075A05D /* Resources */ = {
@@ -250,6 +441,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5777677C7507756993E10083 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uber-Lyft-Compare-Prices-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5921EC727405AAD6B885CC13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uber-Lyft-Compare-PricesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		772F247A22EE57AC0016C9D1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+		987B66D05187EEFB9237DCDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uber-Lyft-Compare-PricesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09F4A877145D739EADE892D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uber-Lyft-Compare-Prices/Pods-Uber-Lyft-Compare-Prices-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uber-Lyft-Compare-Prices/Pods-Uber-Lyft-Compare-Prices-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Uber-Lyft-Compare-Prices/Pods-Uber-Lyft-Compare-Prices-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77BB557722EE43420075A05D /* Sources */ = {
@@ -366,6 +660,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -421,6 +716,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -430,6 +726,7 @@
 		};
 		77BB55A422EE43440075A05D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CCBE3A34B8570CE06AC3730 /* Pods-Uber-Lyft-Compare-Prices.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +745,7 @@
 		};
 		77BB55A522EE43440075A05D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2265C392F1513ECB6503942A /* Pods-Uber-Lyft-Compare-Prices.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +764,7 @@
 		};
 		77BB55A722EE43440075A05D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17FC8AD4F72D94DA4C47B74 /* Pods-Uber-Lyft-Compare-PricesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +786,7 @@
 		};
 		77BB55A822EE43440075A05D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2715895730CAC95ACF2CB7 /* Pods-Uber-Lyft-Compare-PricesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +808,7 @@
 		};
 		77BB55AA22EE43440075A05D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CA7C861B9610B300FCC487 /* Pods-Uber-Lyft-Compare-PricesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +829,7 @@
 		};
 		77BB55AB22EE43440075A05D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54864C55C94AC15C9BD2B53 /* Pods-Uber-Lyft-Compare-PricesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

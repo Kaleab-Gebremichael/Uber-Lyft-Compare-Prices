@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Uber-Lyft-Compare-Prices/Pods-Uber-Lyft-Compare-Prices-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LyftSDK/LyftSDK.framework
+${BUILT_PRODUCTS_DIR}/UberCore/UberCore.framework
+${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework

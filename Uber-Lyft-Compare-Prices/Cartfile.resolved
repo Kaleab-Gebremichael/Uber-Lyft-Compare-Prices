@@ -1,0 +1,2 @@
+github "lyft/Lyft-iOS-sdk" "2.0.0"
+github "uber/rides-ios-sdk" "v0.9.0"

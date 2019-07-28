@@ -1,0 +1,6 @@
+framework module Pods_Uber_Lyft_Compare_PricesTests {
+  umbrella header "Pods-Uber-Lyft-Compare-PricesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
